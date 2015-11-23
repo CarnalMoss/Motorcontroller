@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Power MOSFETs"
+Date "2015-11-18"
+Rev "1"
+Comp "RIT Senior Design"
+Comment1 "Joseph Kubeck"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -171,7 +171,7 @@ $EndComp
 Wire Wire Line
 	4650 2300 4650 2250
 Wire Wire Line
-	3300 1950 4650 1950
+	3000 1950 4650 1950
 Wire Wire Line
 	4300 1950 4300 2400
 Wire Wire Line
@@ -180,7 +180,7 @@ Connection ~ 3850 1950
 Wire Wire Line
 	4300 3800 4300 3700
 Wire Wire Line
-	3300 3800 4300 3800
+	3150 3800 4300 3800
 Wire Wire Line
 	3300 3800 3300 3700
 Connection ~ 3800 3800
@@ -189,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2800 3300 3300
 Wire Wire Line
-	3300 3100 4300 3100
+	3150 3100 4300 3100
 Connection ~ 4300 3100
 Connection ~ 3300 3100
 Wire Wire Line
@@ -379,7 +379,7 @@ F 3 "" H 7300 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 2050 7650 2050
+	5700 2050 7650 2050
 Wire Wire Line
 	7200 2050 7200 2500
 Wire Wire Line
@@ -392,12 +392,12 @@ Wire Wire Line
 Wire Wire Line
 	7200 3900 7200 3800
 Wire Wire Line
-	6150 3900 7200 3900
+	5950 3900 7200 3900
 Wire Wire Line
 	6150 3900 6150 3800
 Connection ~ 6700 3900
 Wire Wire Line
-	6150 3250 7200 3250
+	5950 3250 7200 3250
 Connection ~ 7200 3250
 Connection ~ 6150 3250
 Wire Wire Line
@@ -600,7 +600,7 @@ F 3 "" H 9750 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 2000 10250 2000
+	8450 2000 10250 2000
 Wire Wire Line
 	9850 2000 9850 2450
 Wire Wire Line
@@ -613,11 +613,11 @@ Wire Wire Line
 Wire Wire Line
 	8750 3750 8750 3850
 Wire Wire Line
-	8750 3850 9850 3850
+	8600 3850 9850 3850
 Wire Wire Line
 	9850 3850 9850 3750
 Wire Wire Line
-	8750 3200 9850 3200
+	8600 3200 9850 3200
 Connection ~ 9850 3200
 Connection ~ 8750 3200
 Wire Wire Line
@@ -878,4 +878,28 @@ Wire Wire Line
 	2850 4500 3000 4500
 Connection ~ 3400 4000
 Connection ~ 3400 4500
+Text HLabel 3150 3100 0    60   Input ~ 0
+SH_A
+Text HLabel 3150 3800 0    60   Input ~ 0
+SL_A
+Text HLabel 5950 3250 0    60   Input ~ 0
+SH_B
+Text HLabel 5950 3900 0    60   Input ~ 0
+SL_B
+Text HLabel 8600 3200 0    60   Input ~ 0
+SH_C
+Text HLabel 8600 3850 0    60   Input ~ 0
+SL_C
+Connection ~ 3300 3800
+Connection ~ 6150 3900
+Connection ~ 8750 3850
+Text GLabel 3000 1950 0    60   Input ~ 0
++batt
+Connection ~ 3300 1950
+Text GLabel 5700 2050 0    60   Input ~ 0
++batt
+Text GLabel 8450 2000 0    60   Input ~ 0
++batt
+Connection ~ 6150 2050
+Connection ~ 8750 2000
 $EndSCHEMATC
