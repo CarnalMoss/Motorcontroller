@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title "Gate Driver Schematic -- Incomplete"
+Title "Gate Driver Schematic"
 Date "2015-11-18"
 Rev "1"
 Comp "RIT Senior Design"

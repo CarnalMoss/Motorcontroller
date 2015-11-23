@@ -1,4 +1,4 @@
-update=11/1/2015 12:50:56 AM
+update=11/23/2015 2:40:08 PM
 version=1
 last_client=eeschema
 [general]
@@ -62,3 +62,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=p16261
 LibName31=my_lib
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../../plots/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
