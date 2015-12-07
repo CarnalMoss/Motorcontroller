@@ -121,7 +121,7 @@ U 1 1 5643889D
 P 10750 2150
 F 0 "P2" H 10750 2250 50  0000 C CNN
 F 1 "to_motor_phase_1" V 10850 2150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 10750 2150 60  0001 C CNN
+F 2 "Connect:Banana_Jack_1Pin" H 10750 2150 60  0001 C CNN
 F 3 "" H 10750 2150 60  0000 C CNN
 	1    10750 2150
 	1    0    0    -1  
@@ -132,7 +132,7 @@ U 1 1 56438B24
 P 10750 3000
 F 0 "P3" H 10750 3100 50  0000 C CNN
 F 1 "to_motor_phase_2" V 10850 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 10750 3000 60  0001 C CNN
+F 2 "Connect:Banana_Jack_1Pin" H 10750 3000 60  0001 C CNN
 F 3 "" H 10750 3000 60  0000 C CNN
 	1    10750 3000
 	1    0    0    -1  
@@ -143,7 +143,7 @@ U 1 1 56438C23
 P 10750 3800
 F 0 "P4" H 10750 3900 50  0000 C CNN
 F 1 "to_motor_phase_3" V 10850 3800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 10750 3800 60  0001 C CNN
+F 2 "Connect:Banana_Jack_1Pin" H 10750 3800 60  0001 C CNN
 F 3 "" H 10750 3800 60  0000 C CNN
 	1    10750 3800
 	1    0    0    -1  
