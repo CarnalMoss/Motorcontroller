@@ -1,4 +1,4 @@
-update=11/23/2015 2:40:08 PM
+update=12/26/2015 8:17:21 PM
 version=1
 last_client=eeschema
 [general]
@@ -27,6 +27,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../../plots/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=C:/Users/terminator/Documents/classwork/senior design/repos/kicad/libraries;C:/Users/terminator/Documents/classwork/senior design/repos/kicad-libs/my_lib
@@ -62,13 +72,3 @@ LibName28=contrib
 LibName29=valves
 LibName30=p16261
 LibName31=my_lib
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../../../plots/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
