@@ -1,4 +1,4 @@
-update=12/26/2015 10:43:47 PM
+update=1/5/2016 11:54:33 PM
 version=1
 last_client=pcbnew
 [general]
@@ -44,7 +44,7 @@ LibName29=valves
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=classwork/senior design/repos/kicad/motor-control/motor-control.net
+LastNetListRead=motor-control2.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
