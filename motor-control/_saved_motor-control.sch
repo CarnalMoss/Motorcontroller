@@ -460,4 +460,8 @@ Connection ~ 10400 5350
 Wire Wire Line
 	10650 5450 10650 5350
 Connection ~ 10650 5350
+Text GLabel 2850 3750 0    60   Input ~ 0
+VCC
+Wire Wire Line
+	2850 3750 2950 3750
 $EndSCHEMATC
