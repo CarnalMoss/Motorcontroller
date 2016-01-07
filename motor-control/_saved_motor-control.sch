@@ -256,8 +256,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 3850 3950 3950
 Wire Wire Line
-	3950 3950 3450 3950
-Wire Wire Line
 	4200 3700 3900 3700
 Wire Wire Line
 	3900 3700 3900 3850
@@ -460,10 +458,8 @@ Connection ~ 10400 5350
 Wire Wire Line
 	10650 5450 10650 5350
 Connection ~ 10650 5350
-Text GLabel 2850 3750 0    60   Input ~ 0
+Text GLabel 3500 3950 2    60   Input ~ 0
 VCC
-Wire Wire Line
-	2850 3750 2950 3750
 $Comp
 L ADT7301 U5
 U 1 1 568CE9F4
@@ -529,4 +525,16 @@ F 3 "" H 5150 5450 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5150 5450 5350 5450
+Wire Wire Line
+	3500 3950 3450 3950
+Wire Wire Line
+	3950 3950 3800 3950
+Wire Wire Line
+	3800 3950 3800 4350
+Wire Wire Line
+	3800 4350 2700 4350
+Wire Wire Line
+	2700 4350 2700 3750
+Wire Wire Line
+	2700 3750 2950 3750
 $EndSCHEMATC
