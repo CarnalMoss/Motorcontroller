@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/terminator/Documents/classwork/senior design/repos/kicad/motor-control/_saved_motor-control.sch</source>
+    <date>1/22/2016 4:37:34 PM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>P16261 Motor Controller Schematic -- Top Level</title>
+        <company>RIT Senior Design</company>
+        <rev>1</rev>
+        <date>2015-11-18</date>
+        <source>_saved_motor-control.sch</source>
+        <comment number="1" value="Joseph Kubeck"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power mosfets &amp; current sensing/" tstamps="/5642AC26/">
+      <title_block>
+        <title>Power MOSFETs</title>
+        <company>RIT Senior Design</company>
+        <rev>1</rev>
+        <date>2015-11-18</date>
+        <source>phases.sch</source>
+        <comment number="1" value="Joseph Kubeck"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Gate-Driver/" tstamps="/56433028/">
+      <title_block>
+        <title>Gate Driver Schematic</title>
+        <company>RIT Senior Design</company>
+        <rev>1</rev>
+        <date>2015-11-18</date>
+        <source>driver.sch</source>
+        <comment number="1" value="Joseph Kubeck"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P2">
+      <value>to_motor_phase_1</value>
+      <footprint>Connect:Banana_Jack_1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5643889D</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>to_motor_phase_2</value>
+      <footprint>Connect:Banana_Jack_1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56438B24</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>to_motor_phase_3</value>
+      <footprint>Connect:Banana_Jack_1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56438C23</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X12</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x12</footprint>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5653585A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56555BF6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56555DC0</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Connect:Banana_Jack_1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5656A75D</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Connect:Banana_Jack_1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5656B761</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADT7301</value>
+      <footprint>p16261:ADT7301</footprint>
+      <libsource lib="p16261" part="ADT7301"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568CE9F4</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568CF198</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CP1</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA3D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA44</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA4B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA52</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA59</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ACS770</value>
+      <footprint>p16261:ACS770xCB</footprint>
+      <libsource lib="p16261" part="ACS770"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA6E</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA75</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA7C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BA83</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BABC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BAC3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>CP1</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BD93</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BD9A</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BDA1</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BDA8</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BDAF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BDCA</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BDD1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BDD8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ACS770</value>
+      <footprint>p16261:ACS770xCB</footprint>
+      <libsource lib="p16261" part="ACS770"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BDDF</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BE13</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642BE1A</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C1D9</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C1E0</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C1E7</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>csd19505kcs</value>
+      <footprint>p16261:csd19505kcs</footprint>
+      <libsource lib="p16261" part="CSD19536KTT"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C1EE</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>CP1</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C1F5</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C210</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C217</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C21E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ACS770</value>
+      <footprint>p16261:ACS770xCB</footprint>
+      <libsource lib="p16261" part="ACS770"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C225</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C259</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5642C260</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>564368AD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>56436928</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>56436BB2</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>56436BB8</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>56436F72</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>56436F78</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CP1</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>56539DBB</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>CP1</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>56539ECE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>CP1</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
+      <tstamp>5653A3BD</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>DRV8301</value>
+      <footprint>p16261:DRV8301</footprint>
+      <libsource lib="p16261" part="DRV8301"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5643313B</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.47nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56449700</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5644A5D3</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5644A5FE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5644A7C3</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>22uH</value>
+      <footprint>Inductors:INDUCTOR_V</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5644A7FC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diodes_ThroughHole:Diode_TO-247_Vertical</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5644A853</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5644A8DD</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5644AD67</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_Small</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5650F161</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_Small</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5650F1B4</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5650F1E1</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>800k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5650F32B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5650F556</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5650FD56</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>5651019C</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56510AD3</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56511A6D</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>4k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56511AD6</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56513A7D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.022uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>565165FC</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56519120</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56519605</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56519FBE</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C_Small</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
+      <tstamp>56914993</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="p16261" part="ACS770">
+      <description>Hall Effect Current Sensor</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS770</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VIOUT" type="output"/>
+        <pin num="4" name="IP+" type="input"/>
+        <pin num="5" name="IP-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="p16261" part="ADT7301">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADT7301</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="DIN" type="input"/>
+        <pin num="3" name="Vdd" type="power_in"/>
+        <pin num="4" name="SCLK" type="output"/>
+        <pin num="5" name="~CS" type="output"/>
+        <pin num="6" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X12">
+      <description>Connector 02x12</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X12</fp>
+        <fp>Pin_Header_Angled_2X12</fp>
+        <fp>Socket_Strip_Straight_2X12</fp>
+        <fp>Socket_Strip_Angled_2X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>Elko*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="p16261" part="CSD19536KTT">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD19536KTT</field>
+        <field name="Footprint">TO-263</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="p16261" part="DRV8301">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8301</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RT_CLK" type="input"/>
+        <pin num="2" name="COMP" type="input"/>
+        <pin num="3" name="VSENSE" type="input"/>
+        <pin num="4" name="PWRGD" type="input"/>
+        <pin num="5" name="nOCTW" type="input"/>
+        <pin num="6" name="nFAULT" type="input"/>
+        <pin num="7" name="DTC" type="input"/>
+        <pin num="8" name="nSCS" type="input"/>
+        <pin num="9" name="SDI" type="input"/>
+        <pin num="10" name="SDO" type="input"/>
+        <pin num="11" name="SCLK" type="input"/>
+        <pin num="12" name="DC_CAL" type="input"/>
+        <pin num="13" name="GVDD" type="input"/>
+        <pin num="14" name="CP1" type="input"/>
+        <pin num="15" name="CP2" type="input"/>
+        <pin num="16" name="EN_GATE" type="input"/>
+        <pin num="17" name="INH_A" type="input"/>
+        <pin num="18" name="INL_A" type="input"/>
+        <pin num="19" name="INH_B" type="input"/>
+        <pin num="20" name="INL_B" type="input"/>
+        <pin num="21" name="INH_C" type="input"/>
+        <pin num="22" name="INL_C" type="input"/>
+        <pin num="23" name="DVDD" type="input"/>
+        <pin num="24" name="REF" type="input"/>
+        <pin num="25" name="SO1" type="input"/>
+        <pin num="26" name="SO2" type="input"/>
+        <pin num="27" name="AVDD" type="input"/>
+        <pin num="28" name="AGND" type="input"/>
+        <pin num="29" name="PVDD1" type="input"/>
+        <pin num="30" name="SP2" type="input"/>
+        <pin num="31" name="SN2" type="input"/>
+        <pin num="32" name="SP1" type="input"/>
+        <pin num="33" name="SN1" type="input"/>
+        <pin num="34" name="SL_C" type="input"/>
+        <pin num="35" name="GL_C" type="input"/>
+        <pin num="36" name="SH_C" type="input"/>
+        <pin num="37" name="GH_C" type="input"/>
+        <pin num="38" name="BST_C" type="input"/>
+        <pin num="39" name="SL_B" type="input"/>
+        <pin num="40" name="GL_B" type="input"/>
+        <pin num="41" name="SH_B" type="input"/>
+        <pin num="42" name="GH_B" type="input"/>
+        <pin num="43" name="BST_B" type="input"/>
+        <pin num="44" name="SL_A" type="input"/>
+        <pin num="45" name="GL_A" type="input"/>
+        <pin num="46" name="SH_A" type="input"/>
+        <pin num="47" name="GH_A" type="input"/>
+        <pin num="48" name="BST_A" type="input"/>
+        <pin num="49" name="VDD_SPI" type="input"/>
+        <pin num="50" name="PH" type="input"/>
+        <pin num="51" name="PH" type="input"/>
+        <pin num="52" name="BST_BK" type="input"/>
+        <pin num="53" name="PVDD2" type="input"/>
+        <pin num="54" name="PVDD2" type="input"/>
+        <pin num="55" name="EN_BUCK" type="input"/>
+        <pin num="56" name="SS_TR" type="input"/>
+        <pin num="57" name="BODY" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="p16261">
+      <uri>C:\Users\terminator\Documents\classwork\senior design\repos\kicad\libraries\p16261.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Gate-Driver/nOCTW">
+      <node ref="P1" pin="11"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="2" name="/Gate-Driver/SCLK">
+      <node ref="U4" pin="11"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="3" name="/Gate-Driver/SDO">
+      <node ref="U4" pin="10"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="4" name="/Gate-Driver/SDI">
+      <node ref="U4" pin="9"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="5" name="/Gate-Driver/nSCS">
+      <node ref="P1" pin="7"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="6" name="/Gate-Driver/nFault">
+      <node ref="R26" pin="2"/>
+      <node ref="P1" pin="9"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="7" name="/power mosfets &amp; current sensing/hall_3">
+      <node ref="U3" pin="3"/>
+      <node ref="P1" pin="23"/>
+    </net>
+    <net code="8" name="/power mosfets &amp; current sensing/hall_2">
+      <node ref="P1" pin="21"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="9" name="/power mosfets &amp; current sensing/hall_1">
+      <node ref="U1" pin="3"/>
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="10" name="/Gate-Driver/S01">
+      <node ref="U4" pin="25"/>
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="11" name="/Gate-Driver/REF">
+      <node ref="U4" pin="24"/>
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="12" name="/Gate-Driver/DC_CAL">
+      <node ref="U4" pin="12"/>
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="13" name="/Gate-Driver/INL_C">
+      <node ref="U4" pin="22"/>
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="14" name="/Gate-Driver/INH_C">
+      <node ref="P1" pin="14"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="15" name="/Gate-Driver/INL_B">
+      <node ref="U4" pin="20"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="16" name="/Gate-Driver/INH_B">
+      <node ref="P1" pin="10"/>
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="17" name="/Gate-Driver/INL_A">
+      <node ref="P1" pin="8"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="18" name="/Gate-Driver/INH_A">
+      <node ref="P1" pin="6"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="19" name="/Gate-Driver/EN_GATE">
+      <node ref="U4" pin="16"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="20" name="/Gate-Driver/VDD_SPI">
+      <node ref="P1" pin="2"/>
+      <node ref="U4" pin="49"/>
+    </net>
+    <net code="21" name="Net-(P7-Pad4)">
+      <node ref="U5" pin="2"/>
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="22" name="Net-(P7-Pad3)">
+      <node ref="P7" pin="3"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="23" name="Net-(P7-Pad2)">
+      <node ref="P7" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="24" name="Net-(P7-Pad1)">
+      <node ref="U5" pin="6"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="25" name="VCC">
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="P1" pin="18"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="R4" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U4" pin="28"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="57"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="27" name="+batt">
+      <node ref="C21" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U4" pin="53"/>
+      <node ref="U4" pin="54"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U4" pin="29"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="28" name="/Gate-Driver/S02">
+      <node ref="P1" pin="24"/>
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="29" name="/Gate-Driver/SN1">
+      <node ref="U4" pin="33"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="30" name="/Gate-Driver/SH_A">
+      <node ref="Q3" pin="3"/>
+      <node ref="U4" pin="46"/>
+      <node ref="C15" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="31" name="/Gate-Driver/SH_B">
+      <node ref="Q6" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="U4" pin="41"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="32" name="/Gate-Driver/SH_C">
+      <node ref="P4" pin="1"/>
+      <node ref="U4" pin="36"/>
+      <node ref="C17" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="33" name="/Gate-Driver/SL_A">
+      <node ref="R9" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="U4" pin="44"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="34" name="/Gate-Driver/SL_B">
+      <node ref="R12" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R16" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U4" pin="39"/>
+      <node ref="R10" pin="1"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="35" name="/Gate-Driver/SL_C">
+      <node ref="Q10" pin="3"/>
+      <node ref="U4" pin="34"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="36" name="/Gate-Driver/SP1">
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="32"/>
+    </net>
+    <net code="37" name="/power mosfets &amp; current sensing/SP3">
+      <node ref="R18" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="38" name="/Gate-Driver/GH_A">
+      <node ref="U4" pin="47"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="39" name="/Gate-Driver/GL_A">
+      <node ref="R8" pin="1"/>
+      <node ref="U4" pin="45"/>
+    </net>
+    <net code="40" name="/Gate-Driver/GH_B">
+      <node ref="U4" pin="42"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="41" name="/Gate-Driver/GL_B">
+      <node ref="U4" pin="40"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="42" name="/Gate-Driver/GH_C">
+      <node ref="U4" pin="37"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="43" name="/Gate-Driver/GL_C">
+      <node ref="R23" pin="1"/>
+      <node ref="U4" pin="35"/>
+    </net>
+    <net code="44" name="Net-(P1-Pad15)">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="45" name="Net-(P1-Pad17)">
+      <node ref="P1" pin="17"/>
+    </net>
+    <net code="46" name="/Gate-Driver/SP2">
+      <node ref="U4" pin="30"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="47" name="/Gate-Driver/SN2">
+      <node ref="R2" pin="1"/>
+      <node ref="U4" pin="31"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="48" name="/power mosfets &amp; current sensing/SN3">
+      <node ref="R17" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="49" name="Net-(Q10-Pad1)">
+      <node ref="Q12" pin="1"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="50" name="Net-(Q11-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q11" pin="1"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="51" name="Net-(Q2-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="52" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="53" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="54" name="Net-(Q6-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C12-Pad2)">
+      <node ref="U4" pin="15"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C12-Pad1)">
+      <node ref="U4" pin="14"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C9-Pad1)">
+      <node ref="U4" pin="13"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C15-Pad1)">
+      <node ref="U4" pin="48"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="59" name="Net-(R28-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="60" name="Net-(R29-Pad2)">
+      <node ref="R30" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="61" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U4" pin="38"/>
+    </net>
+    <net code="62" name="Net-(C19-Pad1)">
+      <node ref="U4" pin="43"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C13-Pad1)">
+      <node ref="U4" pin="56"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C11-Pad2)">
+      <node ref="U4" pin="27"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="65" name="Net-(U4-Pad55)">
+      <node ref="U4" pin="55"/>
+    </net>
+    <net code="66" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="67" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C10-Pad2)">
+      <node ref="U4" pin="23"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="69" name="Net-(C8-Pad2)">
+      <node ref="R24" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="70" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U4" pin="51"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U4" pin="50"/>
+    </net>
+    <net code="71" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="52"/>
+    </net>
+    <net code="72" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+  </nets>
+</export>

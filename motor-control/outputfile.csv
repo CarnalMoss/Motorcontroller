@@ -1,0 +1,3 @@
+Generated Using:
+chdir C:\Users\terminator\Documents\classwork\senior design\repos\kicad\motor-control
+"C:\Program Files\KiCad\bin\xsltproc.exe -v -o outputfile.csv ""C:\Program Files\KiCad\bin\scripting\plugins\bom2csv.xsl"" _saved_motor-control.xml"
