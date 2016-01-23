@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/terminator/Documents/classwork/senior design/repos/kicad/motor-control/_saved_motor-control.sch</source>
-    <date>1/22/2016 4:37:34 PM</date>
+    <date>1/22/2016 6:40:18 PM</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -116,7 +116,7 @@
       <tstamp>568CF198</tstamp>
     </comp>
     <comp ref="C1">
-      <value>CP1</value>
+      <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
@@ -158,21 +158,21 @@
       <tstamp>5642BA6E</tstamp>
     </comp>
     <comp ref="R9">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA75</tstamp>
     </comp>
     <comp ref="R6">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA7C</tstamp>
     </comp>
     <comp ref="R5">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
@@ -193,7 +193,7 @@
       <tstamp>5642BAC3</tstamp>
     </comp>
     <comp ref="C3">
-      <value>CP1</value>
+      <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
@@ -228,21 +228,21 @@
       <tstamp>5642BDAF</tstamp>
     </comp>
     <comp ref="R12">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDCA</tstamp>
     </comp>
     <comp ref="R13">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDD1</tstamp>
     </comp>
     <comp ref="R16">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
@@ -298,28 +298,28 @@
       <tstamp>5642C1EE</tstamp>
     </comp>
     <comp ref="C5">
-      <value>CP1</value>
+      <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C1F5</tstamp>
     </comp>
     <comp ref="R19">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C210</tstamp>
     </comp>
     <comp ref="R20">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C217</tstamp>
     </comp>
     <comp ref="R21">
-      <value>R</value>
+      <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
@@ -389,21 +389,21 @@
       <tstamp>56436F78</tstamp>
     </comp>
     <comp ref="C2">
-      <value>CP1</value>
+      <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>56539DBB</tstamp>
     </comp>
     <comp ref="C4">
-      <value>CP1</value>
+      <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>56539ECE</tstamp>
     </comp>
     <comp ref="C6">
-      <value>CP1</value>
+      <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
@@ -468,6 +468,9 @@
     <comp ref="C9">
       <value>2.2uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">16 V</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5644AD67</tstamp>
@@ -503,6 +506,9 @@
     <comp ref="C10">
       <value>1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">6.3 V</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5650F556</tstamp>
@@ -543,7 +549,7 @@
       <tstamp>56511AD6</tstamp>
     </comp>
     <comp ref="R28">
-      <value>DNP</value>
+      <value>0R</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
@@ -578,8 +584,11 @@
       <tstamp>56519FBE</tstamp>
     </comp>
     <comp ref="C21">
-      <value>C_Small</value>
+      <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">60 V</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>56914993</tstamp>

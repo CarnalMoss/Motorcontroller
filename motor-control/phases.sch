@@ -52,7 +52,7 @@ P 4650 2100
 F 0 "C1" H 4675 2200 50  0000 L CNN
 F 1 "470uF" H 4675 2000 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 4650 2100 60  0001 C CNN
-F 3 "" H 4650 2100 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=P5850-ND" H 4650 2100 60  0001 C CNN
 	1    4650 2100
 	1    0    0    -1  
 $EndComp
@@ -63,7 +63,7 @@ P 3400 2600
 F 0 "Q1" H 3650 2675 50  0000 L CNN
 F 1 "csd19505kcs" H 3650 2600 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 3650 2525 50  0001 L CNN
-F 3 "" H 3400 2600 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 3400 2600 50  0001 L CNN
 	1    3400 2600
 	-1   0    0    -1  
 $EndComp
@@ -74,7 +74,7 @@ P 4200 2600
 F 0 "Q3" H 4450 2675 50  0000 L CNN
 F 1 "csd19505kcs" H 4450 2600 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 4450 2525 50  0001 L CNN
-F 3 "" H 4200 2600 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 4200 2600 50  0001 L CNN
 	1    4200 2600
 	1    0    0    -1  
 $EndComp
@@ -85,7 +85,7 @@ P 3400 3500
 F 0 "Q2" H 3650 3575 50  0000 L CNN
 F 1 "csd19505kcs" H 3650 3500 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 3650 3425 50  0001 L CNN
-F 3 "" H 3400 3500 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 3400 3500 50  0001 L CNN
 	1    3400 3500
 	-1   0    0    -1  
 $EndComp
@@ -96,7 +96,7 @@ P 4200 3500
 F 0 "Q4" H 4450 3575 50  0000 L CNN
 F 1 "csd19505kcs" H 4450 3500 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 4450 3425 50  0001 L CNN
-F 3 "" H 4200 3500 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 4200 3500 50  0001 L CNN
 	1    4200 3500
 	1    0    0    -1  
 $EndComp
@@ -131,7 +131,7 @@ P 4450 4250
 F 0 "U1" H 4400 4600 60  0000 C CNN
 F 1 "ACS770" H 4400 3800 60  0000 C CNN
 F 2 "p16261:ACS770xCB" H 4400 3800 60  0001 C CNN
-F 3 "" H 4400 3800 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T" H 4400 3800 60  0001 C CNN
 	1    4450 4250
 	1    0    0    -1  
 $EndComp
@@ -142,7 +142,7 @@ P 3800 4200
 F 0 "R9" V 3880 4200 50  0000 C CNN
 F 1 ".33R" V 3800 4200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 3730 4200 30  0001 C CNN
-F 3 "" H 3800 4200 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 3800 4200 30  0001 C CNN
 	1    3800 4200
 	1    0    0    -1  
 $EndComp
@@ -153,7 +153,7 @@ P 3600 4200
 F 0 "R6" V 3680 4200 50  0000 C CNN
 F 1 ".33R" V 3600 4200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 3530 4200 30  0001 C CNN
-F 3 "" H 3600 4200 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 3600 4200 30  0001 C CNN
 	1    3600 4200
 	1    0    0    -1  
 $EndComp
@@ -164,7 +164,7 @@ P 3400 4200
 F 0 "R5" V 3480 4200 50  0000 C CNN
 F 1 ".33R" V 3400 4200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 3330 4200 30  0001 C CNN
-F 3 "" H 3400 4200 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 3400 4200 30  0001 C CNN
 	1    3400 4200
 	1    0    0    -1  
 $EndComp
@@ -262,7 +262,7 @@ P 7650 2200
 F 0 "C3" H 7675 2300 50  0000 L CNN
 F 1 "470uF" H 7675 2100 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 7650 2200 60  0001 C CNN
-F 3 "" H 7650 2200 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=P5850-ND" H 7650 2200 60  0001 C CNN
 	1    7650 2200
 	1    0    0    -1  
 $EndComp
@@ -273,7 +273,7 @@ P 6250 3600
 F 0 "Q6" H 6500 3675 50  0000 L CNN
 F 1 "csd19505kcs" H 6500 3600 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 6500 3525 50  0001 L CNN
-F 3 "" H 6250 3600 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 6250 3600 50  0001 L CNN
 	1    6250 3600
 	-1   0    0    -1  
 $EndComp
@@ -284,7 +284,7 @@ P 7100 3600
 F 0 "Q8" H 7350 3675 50  0000 L CNN
 F 1 "csd19505kcs" H 7350 3600 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 7350 3525 50  0001 L CNN
-F 3 "" H 7100 3600 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 7100 3600 50  0001 L CNN
 	1    7100 3600
 	1    0    0    -1  
 $EndComp
@@ -295,7 +295,7 @@ P 6250 2700
 F 0 "Q5" H 6500 2775 50  0000 L CNN
 F 1 "csd19505kcs" H 6500 2700 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 6500 2625 50  0001 L CNN
-F 3 "" H 6250 2700 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 6250 2700 50  0001 L CNN
 	1    6250 2700
 	-1   0    0    -1  
 $EndComp
@@ -306,7 +306,7 @@ P 7100 2700
 F 0 "Q7" H 7350 2775 50  0000 L CNN
 F 1 "csd19505kcs" H 7350 2700 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 7350 2625 50  0001 L CNN
-F 3 "" H 7100 2700 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 7100 2700 50  0001 L CNN
 	1    7100 2700
 	1    0    0    -1  
 $EndComp
@@ -341,7 +341,7 @@ P 6300 4300
 F 0 "R12" V 6380 4300 50  0000 C CNN
 F 1 ".33R" V 6300 4300 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 6230 4300 30  0001 C CNN
-F 3 "" H 6300 4300 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 6300 4300 30  0001 C CNN
 	1    6300 4300
 	1    0    0    -1  
 $EndComp
@@ -352,7 +352,7 @@ P 6500 4300
 F 0 "R13" V 6580 4300 50  0000 C CNN
 F 1 ".33R" V 6500 4300 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 6430 4300 30  0001 C CNN
-F 3 "" H 6500 4300 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 6500 4300 30  0001 C CNN
 	1    6500 4300
 	1    0    0    -1  
 $EndComp
@@ -363,7 +363,7 @@ P 6700 4300
 F 0 "R16" V 6780 4300 50  0000 C CNN
 F 1 ".33R" V 6700 4300 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 6630 4300 30  0001 C CNN
-F 3 "" H 6700 4300 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 6700 4300 30  0001 C CNN
 	1    6700 4300
 	1    0    0    -1  
 $EndComp
@@ -374,7 +374,7 @@ P 7350 4350
 F 0 "U2" H 7300 4700 60  0000 C CNN
 F 1 "ACS770" H 7300 3900 60  0000 C CNN
 F 2 "p16261:ACS770xCB" H 7300 3900 60  0001 C CNN
-F 3 "" H 7300 3900 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T" H 7300 3900 60  0001 C CNN
 	1    7350 4350
 	1    0    0    -1  
 $EndComp
@@ -472,7 +472,7 @@ P 8850 2650
 F 0 "Q9" H 9100 2725 50  0000 L CNN
 F 1 "csd19505kcs" H 9100 2650 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 9100 2575 50  0001 L CNN
-F 3 "" H 8850 2650 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 8850 2650 50  0001 L CNN
 	1    8850 2650
 	-1   0    0    -1  
 $EndComp
@@ -483,7 +483,7 @@ P 9750 2650
 F 0 "Q11" H 10000 2725 50  0000 L CNN
 F 1 "csd19505kcs" H 10000 2650 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 10000 2575 50  0001 L CNN
-F 3 "" H 9750 2650 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 9750 2650 50  0001 L CNN
 	1    9750 2650
 	1    0    0    -1  
 $EndComp
@@ -494,7 +494,7 @@ P 8850 3550
 F 0 "Q10" H 9100 3625 50  0000 L CNN
 F 1 "csd19505kcs" H 9100 3550 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 9100 3475 50  0001 L CNN
-F 3 "" H 8850 3550 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 8850 3550 50  0001 L CNN
 	1    8850 3550
 	-1   0    0    -1  
 $EndComp
@@ -505,7 +505,7 @@ P 9750 3550
 F 0 "Q12" H 10000 3625 50  0000 L CNN
 F 1 "csd19505kcs" H 10000 3550 50  0000 L CNN
 F 2 "p16261:csd19505kcs" H 10000 3475 50  0001 L CNN
-F 3 "" H 9750 3550 50  0000 L CNN
+F 3 "http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D" H 9750 3550 50  0001 L CNN
 	1    9750 3550
 	1    0    0    -1  
 $EndComp
@@ -516,7 +516,7 @@ P 10250 2150
 F 0 "C5" H 10275 2250 50  0000 L CNN
 F 1 "470uF" H 10275 2050 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 10250 2150 60  0001 C CNN
-F 3 "" H 10250 2150 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=P5850-ND" H 10250 2150 60  0001 C CNN
 	1    10250 2150
 	1    0    0    -1  
 $EndComp
@@ -562,7 +562,7 @@ P 8750 4250
 F 0 "R19" V 8830 4250 50  0000 C CNN
 F 1 ".33R" V 8750 4250 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 8680 4250 30  0001 C CNN
-F 3 "" H 8750 4250 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 8750 4250 30  0001 C CNN
 	1    8750 4250
 	1    0    0    -1  
 $EndComp
@@ -573,7 +573,7 @@ P 8950 4250
 F 0 "R20" V 9030 4250 50  0000 C CNN
 F 1 ".33R" V 8950 4250 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 8880 4250 30  0001 C CNN
-F 3 "" H 8950 4250 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 8950 4250 30  0001 C CNN
 	1    8950 4250
 	1    0    0    -1  
 $EndComp
@@ -584,7 +584,7 @@ P 9150 4250
 F 0 "R21" V 9230 4250 50  0000 C CNN
 F 1 ".33R" V 9150 4250 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM7.5mm" V 9080 4250 30  0001 C CNN
-F 3 "" H 9150 4250 30  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d" H 9150 4250 30  0001 C CNN
 	1    9150 4250
 	1    0    0    -1  
 $EndComp
@@ -595,7 +595,7 @@ P 9800 4300
 F 0 "U3" H 9750 4650 60  0000 C CNN
 F 1 "ACS770" H 9750 3850 60  0000 C CNN
 F 2 "p16261:ACS770xCB" H 9750 3850 60  0001 C CNN
-F 3 "" H 9750 3850 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T" H 9750 3850 60  0001 C CNN
 	1    9800 4300
 	1    0    0    -1  
 $EndComp
@@ -909,7 +909,7 @@ P 4950 2100
 F 0 "C2" H 4975 2200 50  0000 L CNN
 F 1 "470uF" H 4975 2000 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 4950 2100 60  0001 C CNN
-F 3 "" H 4950 2100 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=P5850-ND" H 4950 2100 60  0001 C CNN
 	1    4950 2100
 	1    0    0    -1  
 $EndComp
@@ -931,7 +931,7 @@ P 7900 2200
 F 0 "C4" H 7925 2300 50  0000 L CNN
 F 1 "470uF" H 7925 2100 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 7900 2200 60  0001 C CNN
-F 3 "" H 7900 2200 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=P5850-ND" H 7900 2200 60  0001 C CNN
 	1    7900 2200
 	1    0    0    -1  
 $EndComp
@@ -953,7 +953,7 @@ P 10500 2150
 F 0 "C6" H 10525 2250 50  0000 L CNN
 F 1 "470uF" H 10525 2050 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Radial_D16_L30_P7.5" H 10500 2150 60  0001 C CNN
-F 3 "" H 10500 2150 60  0000 C CNN
+F 3 "http://www.digikey.com/product-search/en?keywords=P5850-ND" H 10500 2150 60  0001 C CNN
 	1    10500 2150
 	1    0    0    -1  
 $EndComp
