@@ -9,37 +9,37 @@ P5,CONN_01X01,Connect:Banana_Jack_1Pin,
 P6,CONN_01X01,Connect:Banana_Jack_1Pin,
 U5,ADT7301,p16261:ADT7301,
 P7,CONN_01X04,Pin_Headers:Pin_Header_Straight_1x04,
-C1,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,
-Q1,csd19505kcs,p16261:csd19505kcs,
-Q3,csd19505kcs,p16261:csd19505kcs,
-Q2,csd19505kcs,p16261:csd19505kcs,
-Q4,csd19505kcs,p16261:csd19505kcs,
-U1,ACS770,p16261:ACS770xCB,
-R9,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-R6,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-R5,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
+C1,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,http://www.digikey.com/product-search/en?keywords=P5850-ND
+Q1,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q3,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q2,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q4,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+U1,ACS770,p16261:ACS770xCB,http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T
+R9,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+R6,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+R5,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
 R7,10R,Resistors_SMD:R_0805,
 R8,10R,Resistors_SMD:R_0805,
-C3,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,
-Q6,csd19505kcs,p16261:csd19505kcs,
-Q8,csd19505kcs,p16261:csd19505kcs,
-Q5,csd19505kcs,p16261:csd19505kcs,
-Q7,csd19505kcs,p16261:csd19505kcs,
-R12,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-R13,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-R16,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-U2,ACS770,p16261:ACS770xCB,
+C3,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,http://www.digikey.com/product-search/en?keywords=P5850-ND
+Q6,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q8,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q5,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q7,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+R12,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+R13,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+R16,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+U2,ACS770,p16261:ACS770xCB,http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T
 R15,10R,Resistors_SMD:R_0805,
 R14,10R,Resistors_SMD:R_0805,
-Q9,csd19505kcs,p16261:csd19505kcs,
-Q11,csd19505kcs,p16261:csd19505kcs,
-Q10,csd19505kcs,p16261:csd19505kcs,
-Q12,csd19505kcs,p16261:csd19505kcs,
-C5,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,
-R19,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-R20,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-R21,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,
-U3,ACS770,p16261:ACS770xCB,
+Q9,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q11,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q10,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+Q12,csd19505kcs,p16261:csd19505kcs,http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D
+C5,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,http://www.digikey.com/product-search/en?keywords=P5850-ND
+R19,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+R20,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+R21,.33R,Resistors_ThroughHole:Resistor_Vertical_RM7.5mm,http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d
+U3,ACS770,p16261:ACS770xCB,http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T
 R22,10R,Resistors_SMD:R_0805,
 R23,10R,Resistors_SMD:R_0805,
 R3,0R,Resistors_SMD:R_0805,
@@ -48,31 +48,31 @@ R10,0R,Resistors_SMD:R_0805,
 R11,0R,Resistors_SMD:R_0805,
 R17,0R,Resistors_SMD:R_0805,
 R18,0R,Resistors_SMD:R_0805,
-C2,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,
-C4,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,
-C6,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,
+C2,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,http://www.digikey.com/product-search/en?keywords=P5850-ND
+C4,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,http://www.digikey.com/product-search/en?keywords=P5850-ND
+C6,470uF,Capacitors_ThroughHole:C_Radial_D16_L30_P7.5,http://www.digikey.com/product-search/en?keywords=P5850-ND
 U4,DRV8301,p16261:DRV8301,
 C13,0.47nF,Capacitors_SMD:C_0805,
-C16,0.1uF,Capacitors_SMD:C_0805,
-C18,4.7uF,Capacitors_SMD:C_0805,
-C14,0.1uF,Capacitors_SMD:C_0805,
+C16,0.1uF,Capacitors_SMD:C_0805,,100 V
+C18,4.7uF,Capacitors_SMD:C_0805,,100 V
+C14,0.1uF,Capacitors_SMD:C_0805,,10 V
 L1,22uH,Inductors:INDUCTOR_V,
 D1,D,Diodes_ThroughHole:Diode_TO-247_Vertical,
-C20,47uF,Capacitors_SMD:C_0805,
+C20,47uF,Capacitors_SMD:C_0805,,6.3 V
 C9,2.2uF,Capacitors_SMD:C_0805,,16 V
-C7,C_Small,Capacitors_SMD:C_0805,
-C8,C_Small,Capacitors_SMD:C_0805,
-R24,R,Resistors_SMD:R_0805,
+C7,2700 pF,Capacitors_SMD:C_0805,
+C8,6.8 pF,Capacitors_SMD:C_0805,
+R24,76.8k,Resistors_SMD:R_0805,
 R27,800k,Resistors_SMD:R_0805,
 C10,1uF,Capacitors_SMD:C_0805,,6.3 V
-C11,1uF,Capacitors_SMD:C_0805,
+C11,1uF,Capacitors_SMD:C_0805,,10 V
 R25,10k,Resistors_SMD:R_0805,
 R26,10k,Resistors_SMD:R_0805,
 R29,22k,Resistors_SMD:R_0805,
 R30,4k,Resistors_SMD:R_0805,
 R28,0R,Resistors_SMD:R_0805,
 C12,0.022uF,Capacitors_SMD:C_0805,
-C15,0.1uF,Capacitors_SMD:C_0805,
-C19,0.1uF,Capacitors_SMD:C_0805,
-C17,0.1uF,Capacitors_SMD:C_0805,
-C21,4.7uF,Capacitors_SMD:C_0805,,60 V
+C15,0.1uF,Capacitors_SMD:C_0805,,16 V
+C19,0.1uF,Capacitors_SMD:C_0805,,16 V
+C17,0.1uF,Capacitors_SMD:C_0805,,16 V
+C21,4.7uF,Capacitors_SMD:C_0805,,100 V

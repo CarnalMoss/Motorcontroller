@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/terminator/Documents/classwork/senior design/repos/kicad/motor-control/_saved_motor-control.sch</source>
-    <date>1/22/2016 6:40:18 PM</date>
+    <date>1/26/2016 2:15:04 PM</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -118,6 +118,7 @@
     <comp ref="C1">
       <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=P5850-ND</datasheet>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA3D</tstamp>
@@ -125,6 +126,7 @@
     <comp ref="Q1">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA44</tstamp>
@@ -132,6 +134,7 @@
     <comp ref="Q3">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA4B</tstamp>
@@ -139,6 +142,7 @@
     <comp ref="Q2">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA52</tstamp>
@@ -146,6 +150,7 @@
     <comp ref="Q4">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA59</tstamp>
@@ -153,6 +158,7 @@
     <comp ref="U1">
       <value>ACS770</value>
       <footprint>p16261:ACS770xCB</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T</datasheet>
       <libsource lib="p16261" part="ACS770"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA6E</tstamp>
@@ -160,6 +166,7 @@
     <comp ref="R9">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA75</tstamp>
@@ -167,6 +174,7 @@
     <comp ref="R6">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA7C</tstamp>
@@ -174,6 +182,7 @@
     <comp ref="R5">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BA83</tstamp>
@@ -195,6 +204,7 @@
     <comp ref="C3">
       <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=P5850-ND</datasheet>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BD93</tstamp>
@@ -202,6 +212,7 @@
     <comp ref="Q6">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BD9A</tstamp>
@@ -209,6 +220,7 @@
     <comp ref="Q8">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDA1</tstamp>
@@ -216,6 +228,7 @@
     <comp ref="Q5">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDA8</tstamp>
@@ -223,6 +236,7 @@
     <comp ref="Q7">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDAF</tstamp>
@@ -230,6 +244,7 @@
     <comp ref="R12">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDCA</tstamp>
@@ -237,6 +252,7 @@
     <comp ref="R13">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDD1</tstamp>
@@ -244,6 +260,7 @@
     <comp ref="R16">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDD8</tstamp>
@@ -251,6 +268,7 @@
     <comp ref="U2">
       <value>ACS770</value>
       <footprint>p16261:ACS770xCB</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T</datasheet>
       <libsource lib="p16261" part="ACS770"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642BDDF</tstamp>
@@ -272,6 +290,7 @@
     <comp ref="Q9">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C1D9</tstamp>
@@ -279,6 +298,7 @@
     <comp ref="Q11">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C1E0</tstamp>
@@ -286,6 +306,7 @@
     <comp ref="Q10">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C1E7</tstamp>
@@ -293,6 +314,7 @@
     <comp ref="Q12">
       <value>csd19505kcs</value>
       <footprint>p16261:csd19505kcs</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Texas-Instruments/CSD19505KCS/?qs=%252bFzhjShcsaJOb21rbgU2rQ%3D%3D</datasheet>
       <libsource lib="p16261" part="CSD19536KTT"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C1EE</tstamp>
@@ -300,6 +322,7 @@
     <comp ref="C5">
       <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=P5850-ND</datasheet>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C1F5</tstamp>
@@ -307,6 +330,7 @@
     <comp ref="R19">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C210</tstamp>
@@ -314,6 +338,7 @@
     <comp ref="R20">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C217</tstamp>
@@ -321,6 +346,7 @@
     <comp ref="R21">
       <value>.33R</value>
       <footprint>Resistors_ThroughHole:Resistor_Vertical_RM7.5mm</footprint>
+      <datasheet>http://www.mouser.com/ProductDetail/Yageo/SQP500JB-0R33/?qs=%2fha2pyFaduhSb4SMxcoHiCHz89Y6TvvmQXdghjvD2SGXJnxgjfI32w%3d%3d</datasheet>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C21E</tstamp>
@@ -328,6 +354,7 @@
     <comp ref="U3">
       <value>ACS770</value>
       <footprint>p16261:ACS770xCB</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=ACS770LCB-050U-PFF-T</datasheet>
       <libsource lib="p16261" part="ACS770"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5642C225</tstamp>
@@ -391,6 +418,7 @@
     <comp ref="C2">
       <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=P5850-ND</datasheet>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>56539DBB</tstamp>
@@ -398,6 +426,7 @@
     <comp ref="C4">
       <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=P5850-ND</datasheet>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>56539ECE</tstamp>
@@ -405,6 +434,7 @@
     <comp ref="C6">
       <value>470uF</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D16_L30_P7.5</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=P5850-ND</datasheet>
       <libsource lib="device" part="CP1"/>
       <sheetpath names="/power mosfets &amp; current sensing/" tstamps="/5642AC26/"/>
       <tstamp>5653A3BD</tstamp>
@@ -426,6 +456,9 @@
     <comp ref="C16">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">100 V</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5644A5D3</tstamp>
@@ -433,6 +466,9 @@
     <comp ref="C18">
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">100 V</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5644A5FE</tstamp>
@@ -440,6 +476,9 @@
     <comp ref="C14">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">10 V</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5644A7C3</tstamp>
@@ -461,6 +500,9 @@
     <comp ref="C20">
       <value>47uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">6.3 V</field>
+      </fields>
       <libsource lib="device" part="CP1_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5644A8DD</tstamp>
@@ -476,21 +518,21 @@
       <tstamp>5644AD67</tstamp>
     </comp>
     <comp ref="C7">
-      <value>C_Small</value>
+      <value>2700 pF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5650F161</tstamp>
     </comp>
     <comp ref="C8">
-      <value>C_Small</value>
+      <value>6.8 pF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5650F1B4</tstamp>
     </comp>
     <comp ref="R24">
-      <value>R</value>
+      <value>76.8k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
@@ -516,6 +558,9 @@
     <comp ref="C11">
       <value>1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">10 V</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>5650FD56</tstamp>
@@ -565,6 +610,9 @@
     <comp ref="C15">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">16 V</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>56519120</tstamp>
@@ -572,6 +620,9 @@
     <comp ref="C19">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">16 V</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>56519605</tstamp>
@@ -579,6 +630,9 @@
     <comp ref="C17">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Voltage">16 V</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
       <tstamp>56519FBE</tstamp>
@@ -587,7 +641,7 @@
       <value>4.7uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
-        <field name="Voltage">60 V</field>
+        <field name="Voltage">100 V</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/Gate-Driver/" tstamps="/56433028/"/>
