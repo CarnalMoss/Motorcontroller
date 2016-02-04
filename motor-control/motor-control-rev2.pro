@@ -1,4 +1,4 @@
-update=2/1/2016 8:40:05 PM
+update=2/4/2016 12:09:25 AM
 version=1
 last_client=pcbnew
 [general]
@@ -44,7 +44,7 @@ LibName29=valves
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=motor-control5.net
+LastNetListRead=motor-control6.net
 PadDrill=1.00076
 PadDrillOvalY=1.00076
 PadSizeH=1.99898
