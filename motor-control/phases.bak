@@ -717,23 +717,17 @@ Wire Wire Line
 Wire Wire Line
 	6550 4600 6550 5200
 Connection ~ 6550 5200
-Text GLabel 5000 4100 2    60   Input ~ 0
+Text GLabel 5000 4000 2    60   Input ~ 0
 VCC
-Text GLabel 7950 4200 2    60   Input ~ 0
+Text GLabel 7850 3800 2    60   Input ~ 0
 VCC
-Text GLabel 10400 4150 2    60   Input ~ 0
+Text GLabel 10500 3950 2    60   Input ~ 0
 VCC
-Wire Wire Line
-	5000 4100 4850 4100
-Wire Wire Line
-	7750 4200 7950 4200
-Wire Wire Line
-	10200 4150 10400 4150
-Text HLabel 5050 4400 2    60   Input ~ 0
+Text HLabel 5250 4750 2    60   Input ~ 0
 hall_1
-Text HLabel 7800 4700 2    60   Input ~ 0
+Text HLabel 7950 4850 2    60   Input ~ 0
 hall_2
-Text HLabel 10450 4450 2    60   Input ~ 0
+Text HLabel 10600 4700 2    60   Input ~ 0
 hall_3
 $Comp
 L GND #PWR014
@@ -746,12 +740,6 @@ F 3 "" H 5600 4250 60  0000 C CNN
 	1    5600 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 4400 5050 4400
-Wire Wire Line
-	10200 4450 10450 4450
-Wire Wire Line
-	4850 4250 5600 4250
 $Comp
 L GND #PWR015
 U 1 1 564364BC
@@ -855,11 +843,7 @@ SN3
 Text HLabel 8200 4550 0    60   Input ~ 0
 SP3
 Wire Wire Line
-	7800 4700 7750 4700
-Wire Wire Line
-	7750 4700 7750 4500
-Wire Wire Line
-	7850 4350 7750 4350
+	7750 4350 7950 4350
 Connection ~ 8750 4050
 Wire Wire Line
 	8150 4050 8300 4050
@@ -977,4 +961,172 @@ Wire Wire Line
 Connection ~ 10250 2000
 Wire Wire Line
 	10500 2350 10500 2300
+$Comp
+L C_Small C22
+U 1 1 56B30753
+P 4950 4150
+F 0 "C22" H 5050 4200 50  0000 L CNN
+F 1 "0.1uF" H 5050 4100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4950 4150 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Kemet/C0805C104K3RACTU/?qs=sGAEpiMZZMsh%252b1woXyUXjy2nLb0oGP6S1b6VKwFAUBM%3d" H 4950 4150 50  0001 C CNN
+	1    4950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4250 5600 4250
+Connection ~ 4950 4250
+Wire Wire Line
+	4850 4100 4850 4000
+Wire Wire Line
+	4850 4000 5000 4000
+Wire Wire Line
+	4950 4050 4950 4000
+Connection ~ 4950 4000
+$Comp
+L C_Small C23
+U 1 1 56B31DA0
+P 5200 4400
+F 0 "C23" H 5210 4470 50  0000 L CNN
+F 1 "0.047uF" H 5210 4320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5200 4400 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/AVX/0805YC473KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQKG%2f91LbtRSiVF39sFx40v8%3d" H 5200 4400 50  0001 C CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C25
+U 1 1 56B324F9
+P 7900 4700
+F 0 "C25" H 7910 4770 50  0000 L CNN
+F 1 "0.047uF" H 7910 4620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7900 4700 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/AVX/0805YC473KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQKG%2f91LbtRSiVF39sFx40v8%3d" H 7900 4700 50  0001 C CNN
+	1    7900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C24
+U 1 1 56B32576
+P 7850 4150
+F 0 "C24" H 7860 4220 50  0000 L CNN
+F 1 "0.1uF" H 7860 4070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7850 4150 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Kemet/C0805C104K3RACTU/?qs=sGAEpiMZZMsh%252b1woXyUXjy2nLb0oGP6S1b6VKwFAUBM%3d" H 7850 4150 50  0001 C CNN
+	1    7850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C26
+U 1 1 56B32AFB
+P 10400 4150
+F 0 "C26" H 10410 4220 50  0000 L CNN
+F 1 "0.1uF" H 10410 4070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 10400 4150 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Kemet/C0805C104K3RACTU/?qs=sGAEpiMZZMsh%252b1woXyUXjy2nLb0oGP6S1b6VKwFAUBM%3d" H 10400 4150 50  0001 C CNN
+	1    10400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C27
+U 1 1 56B32B86
+P 10700 4450
+F 0 "C27" H 10710 4520 50  0000 L CNN
+F 1 "0.047uF" H 10710 4370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 10700 4450 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/AVX/0805YC473KAT2A/?qs=sGAEpiMZZMs0AnBnWHyRQKG%2f91LbtRSiVF39sFx40v8%3d" H 10700 4450 50  0001 C CNN
+	1    10700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R31
+U 1 1 56B33573
+P 4950 4550
+F 0 "R31" V 5030 4550 50  0000 C CNN
+F 1 "100R" V 4950 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4880 4550 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Bourns/CRS0805-FX-1000ELF/?qs=sGAEpiMZZMtlubZbdhIBIE4X4CLDUFJw6OTs2jsUdzw%3d" H 4950 4550 50  0001 C CNN
+	1    4950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R32
+U 1 1 56B345B9
+P 7750 4700
+F 0 "R32" V 7650 4700 50  0000 C CNN
+F 1 "100R" V 7750 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 4700 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Bourns/CRS0805-FX-1000ELF/?qs=sGAEpiMZZMtlubZbdhIBIE4X4CLDUFJw6OTs2jsUdzw%3d" H 7750 4700 50  0001 C CNN
+	1    7750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R33
+U 1 1 56B34890
+P 10400 4450
+F 0 "R33" V 10480 4450 50  0000 C CNN
+F 1 "100R" V 10400 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10330 4450 50  0001 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Bourns/CRS0805-FX-1000ELF/?qs=sGAEpiMZZMtlubZbdhIBIE4X4CLDUFJw6OTs2jsUdzw%3d" H 10400 4450 50  0001 C CNN
+	1    10400 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 4700 4950 4750
+Wire Wire Line
+	4950 4750 5250 4750
+Wire Wire Line
+	5200 4500 5200 4750
+Connection ~ 5200 4750
+Wire Wire Line
+	5200 4300 5200 4250
+Connection ~ 5200 4250
+Wire Wire Line
+	4850 4400 4950 4400
+Wire Wire Line
+	7850 3800 7800 3800
+Wire Wire Line
+	7800 3800 7800 4200
+Wire Wire Line
+	7800 4200 7750 4200
+Wire Wire Line
+	7850 4050 7800 4050
+Connection ~ 7800 4050
+Wire Wire Line
+	7850 4250 7850 4350
+Connection ~ 7850 4350
+Wire Wire Line
+	7900 4600 7900 4550
+Wire Wire Line
+	7900 4550 7950 4550
+Wire Wire Line
+	7950 4550 7950 4350
+Wire Wire Line
+	7750 4550 7750 4500
+Wire Wire Line
+	7750 4850 7950 4850
+Wire Wire Line
+	7900 4850 7900 4800
+Connection ~ 7900 4850
+Wire Wire Line
+	10500 3950 10200 3950
+Wire Wire Line
+	10200 3950 10200 4150
+Wire Wire Line
+	10400 4050 10400 3950
+Connection ~ 10400 3950
+Wire Wire Line
+	10400 4250 10400 4300
+Connection ~ 10400 4300
+Wire Wire Line
+	10700 4350 10700 4300
+Connection ~ 10700 4300
+Wire Wire Line
+	10550 4450 10550 4700
+Wire Wire Line
+	10550 4550 10700 4550
+Wire Wire Line
+	10200 4450 10250 4450
+Wire Wire Line
+	10550 4700 10600 4700
+Connection ~ 10550 4550
 $EndSCHEMATC
