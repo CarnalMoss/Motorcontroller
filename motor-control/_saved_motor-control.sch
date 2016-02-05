@@ -28,6 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:p16261
+LIBS:my_lib
 LIBS:_saved_motor-control-cache
 EELAYER 25 0
 EELAYER END

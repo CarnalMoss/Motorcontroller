@@ -164,7 +164,7 @@ U 1 1 5644A7FC
 P 6450 2450
 F 0 "L1" H 6480 2490 50  0000 L CNN
 F 1 "68uH" H 6480 2410 50  0000 L CNN
-F 2 "p16261:inductor_custom" H 6450 2450 60  0001 C CNN
+F 2 "p16261:PHC-27-683" H 6450 2450 60  0001 C CNN
 F 3 "http://www.coilcraft.com/pdfs/pch.pdf" H 6450 2450 60  0001 C CNN
 	1    6450 2450
 	0    -1   -1   0   

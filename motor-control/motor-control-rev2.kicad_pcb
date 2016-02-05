@@ -2,8 +2,8 @@
 
   (general
     (links 243)
-    (no_connects 26)
-    (area 90.293999 54.419999 212.745001 120.483001)
+    (no_connects 22)
+    (area 89.8746 51.538 232.118085 134.720001)
     (thickness 1.6)
     (drawings 140)
     (tracks 1358)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.1524)
     (user_trace_width 0.18)
     (user_trace_width 0.3)
     (user_trace_width 1)
@@ -3142,11 +3142,6 @@
       (net 12 "Net-(C14-Pad2)"))
     (pad 2 smd rect (at 2 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model Diodes_SMD.3dshapes/MELF_Handsoldering.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module p16261:PHC-27-683 (layer F.Cu) (tedit 56B397D2) (tstamp 56B3E9C3)
@@ -3165,11 +3160,6 @@
       (net 12 "Net-(C14-Pad2)"))
     (pad 2 thru_hole circle (at 9 0 180) (size 1.905 1.905) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 19 VCC))
-    (model Inductors.3dshapes/INDUCTOR_V.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 2 2 2))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (gr_text *8 (at 123.5 56.1) (layer F.SilkS)
