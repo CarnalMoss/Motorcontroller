@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-10-08 BZR 6255, Git 74f00d4)-product")
+(kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
 
   (general
     (links 243)
     (no_connects 21)
-    (area 73.213076 52.5226 232.118085 134.720001)
+    (area 90.293999 54.419999 212.745001 120.483001)
     (thickness 1.6)
     (drawings 162)
     (tracks 1363)
@@ -92,7 +92,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "C:/Users/jak2624/Desktop/fab stuff/"))
+      (outputdirectory "C:/Users/terminator/Documents/classwork/senior design/plots/advanced circuits files/gerber and drill/"))
   )
 
   (net 0 "")
