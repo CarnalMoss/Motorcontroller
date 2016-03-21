@@ -5,4 +5,23 @@ D Hall Effect Current Sensor
 K Hall
 $ENDCMP
 #
+$CMP LM3940ISX-3.3
+D 400mA Low drop-out regulator, Fixed Output 3.3V, TO-263
+K REGULATOR LDO 3.3V
+$ENDCMP
+#
+$CMP SI2325DS-T1-E3
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP SN74LV1T34
+D level shifter
+$ENDCMP
+#
+$CMP SPX2920T-5.0
+D 400mA Low drop-out regulator, Fixed Output 5V, TO-263
+K REGULATOR LDO 5V
+$ENDCMP
+#
 #End Doc Library
