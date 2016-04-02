@@ -2,11 +2,11 @@
 
   (general
     (links 117)
-    (no_connects 81)
-    (area 0 0 0 0)
+    (no_connects 116)
+    (area 84.479762 18.695 265.108334 193.175)
     (thickness 1.6)
-    (drawings 0)
-    (tracks 0)
+    (drawings 4)
+    (tracks 10)
     (zones 0)
     (modules 43)
     (nets 68)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -438,7 +438,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x12 (layer F.Cu) (tedit 0) (tstamp 56FDE587)
-    (at 102.46 94.76)
+    (at 52.21 99.92)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /56EEBD62)
@@ -516,7 +516,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x10 (layer F.Cu) (tedit 0) (tstamp 56FDE5AB)
-    (at 102.46 139.76)
+    (at 67.46 102.38)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /56F04B44)
@@ -621,7 +621,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x10 (layer F.Cu) (tedit 0) (tstamp 56FDE5E1)
-    (at 127.46 139.76)
+    (at 110.63 101.75)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /56F04BCF)
@@ -1217,7 +1217,7 @@
   )
 
   (module p16261:3361P (layer F.Cu) (tedit 56FC6060) (tstamp 56FDE6EA)
-    (at 92.46 51.8)
+    (at 80.01 101.6)
     (tags POT,POTENTIOMETER)
     (path /56F10C2C)
     (fp_text reference RV1 (at 0 6) (layer F.SilkS)
@@ -1246,7 +1246,7 @@
   )
 
   (module p16261:3361P (layer F.Cu) (tedit 56FC6060) (tstamp 56FDE6FC)
-    (at 102.46 51.8)
+    (at 88.9 101.6)
     (tags POT,POTENTIOMETER)
     (path /56F110C8)
     (fp_text reference RV2 (at 0 6) (layer F.SilkS)
@@ -1275,7 +1275,7 @@
   )
 
   (module p16261:3361P (layer F.Cu) (tedit 56FC6060) (tstamp 56FDE70E)
-    (at 112.46 51.8)
+    (at 97.79 101.6)
     (tags POT,POTENTIOMETER)
     (path /56F11138)
     (fp_text reference RV3 (at 0 6) (layer F.SilkS)
@@ -1304,7 +1304,7 @@
   )
 
   (module p16261:3361P (layer F.Cu) (tedit 56FC6060) (tstamp 56FDE720)
-    (at 122.46 51.8)
+    (at 80.01 114.3)
     (tags POT,POTENTIOMETER)
     (path /56FC9D25)
     (fp_text reference RV4 (at 0 6) (layer F.SilkS)
@@ -1333,7 +1333,7 @@
   )
 
   (module p16261:3361P (layer F.Cu) (tedit 56FC6060) (tstamp 56FDE732)
-    (at 132.46 51.8)
+    (at 88.9 114.3)
     (tags POT,POTENTIOMETER)
     (path /56FC9D8A)
     (fp_text reference RV5 (at 0 6) (layer F.SilkS)
@@ -1362,7 +1362,7 @@
   )
 
   (module p16261:3361P (layer F.Cu) (tedit 56FC6060) (tstamp 56FDE744)
-    (at 92.46 66.8)
+    (at 97.79 114.3)
     (tags POT,POTENTIOMETER)
     (path /56FC9C0F)
     (fp_text reference RV6 (at 0 6) (layer F.SilkS)
@@ -1391,7 +1391,7 @@
   )
 
   (module p16261:3361P (layer F.Cu) (tedit 56FC6060) (tstamp 56FDE756)
-    (at 102.46 66.8)
+    (at 104.43464 123.02236)
     (tags POT,POTENTIOMETER)
     (path /56FC9CC4)
     (fp_text reference RV7 (at 0 6) (layer F.SilkS)
@@ -1420,7 +1420,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE75F)
-    (at 89.35 188.9)
+    (at 76.2 127)
     (tags "LEVEL SHIFTER")
     (path /56F143DF)
     (fp_text reference U1 (at 0 3.3) (layer F.SilkS)
@@ -1442,7 +1442,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE768)
-    (at 94.35 188.9)
+    (at 78.74 127)
     (tags "LEVEL SHIFTER")
     (path /56F144A7)
     (fp_text reference U2 (at 0 3.3) (layer F.SilkS)
@@ -1486,7 +1486,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE77A)
-    (at 100 188.9)
+    (at 81.28 127)
     (tags "LEVEL SHIFTER")
     (path /56F0A224)
     (fp_text reference U4 (at 0 3.3) (layer F.SilkS)
@@ -1508,7 +1508,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE783)
-    (at 104.35 188.9)
+    (at 83.82 127)
     (tags "LEVEL SHIFTER")
     (path /56F0A132)
     (fp_text reference U5 (at 0 3.3) (layer F.SilkS)
@@ -1530,7 +1530,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE78C)
-    (at 109.35 188.9)
+    (at 86.36 127)
     (tags "LEVEL SHIFTER")
     (path /56F0A2A9)
     (fp_text reference U6 (at 0 3.3) (layer F.SilkS)
@@ -1552,7 +1552,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE795)
-    (at 115 188.9)
+    (at 88.9 127)
     (tags "LEVEL SHIFTER")
     (path /56F093A7)
     (fp_text reference U7 (at 0 3.3) (layer F.SilkS)
@@ -1574,7 +1574,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE79E)
-    (at 120 188.9)
+    (at 91.44 127)
     (tags "LEVEL SHIFTER")
     (path /56FEA91F)
     (fp_text reference U8 (at 0 3.3) (layer F.SilkS)
@@ -1596,7 +1596,7 @@
   )
 
   (module p16261:SN74LV1T34 (layer F.Cu) (tedit 56FDC578) (tstamp 56FDE7A7)
-    (at 125 188.9)
+    (at 93.98 127)
     (tags "LEVEL SHIFTER")
     (path /56FEBD1C)
     (fp_text reference U9 (at 0 3.3) (layer F.SilkS)
@@ -1616,5 +1616,21 @@
     (pad 5 smd rect (at -0.65 -1.1) (size 0.4 0.9) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3) (solder_mask_margin 0.05) (solder_paste_margin -0.05))
   )
+
+  (gr_line (start 115 130) (end 50 130) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 115 95) (end 115 130) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 50 95) (end 115 95) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 50 95) (end 50 130) (layer Edge.Cuts) (width 0.15))
+
+  (segment (start 54.75 99.92) (end 53.561399 98.731399) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 53.561399 98.731399) (end 51.086399 98.731399) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 51.086399 98.731399) (end 51.021399 98.796399) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 51.021399 98.796399) (end 51.021399 120.810529) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 51.021399 120.810529) (end 51.802269 121.591399) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 51.802269 121.591399) (end 53.561399 121.591399) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 53.561399 121.591399) (end 53.886401 121.916401) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 53.886401 121.916401) (end 54.75 122.78) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 54.75 99.92) (end 57.21 102.38) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 57.21 102.38) (end 67.46 102.38) (width 0.25) (layer F.Cu) (net 3))
 
 )
