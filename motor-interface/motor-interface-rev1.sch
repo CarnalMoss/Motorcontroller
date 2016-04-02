@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:motor-interface-rev1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -100,7 +101,7 @@ U 1 1 56F04FFA
 P 3200 3400
 F 0 "R3" H 3230 3420 50  0000 L CNN
 F 1 "EN_SO1" H 3230 3360 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 3200 3400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 3200 3400 50  0001 C CNN
 F 3 "" H 3200 3400 50  0000 C CNN
 	1    3200 3400
 	1    0    0    -1  
@@ -111,7 +112,7 @@ U 1 1 56F0508D
 P 3450 3300
 F 0 "R4" H 3480 3320 50  0000 L CNN
 F 1 "EN_SO2" H 3480 3260 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 3450 3300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 3450 3300 50  0001 C CNN
 F 3 "" H 3450 3300 50  0000 C CNN
 	1    3450 3300
 	1    0    0    -1  
@@ -376,7 +377,7 @@ U 1 1 56F0781E
 P 1250 4500
 F 0 "R1" H 1280 4520 50  0000 L CNN
 F 1 "330R" H 1280 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 1250 4500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 1250 4500 50  0001 C CNN
 F 3 "" H 1250 4500 50  0000 C CNN
 	1    1250 4500
 	1    0    0    -1  
@@ -387,7 +388,7 @@ U 1 1 56F0787D
 P 1700 4500
 F 0 "R2" H 1730 4520 50  0000 L CNN
 F 1 "330R" H 1730 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 1700 4500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 1700 4500 50  0001 C CNN
 F 3 "" H 1700 4500 50  0000 C CNN
 	1    1700 4500
 	1    0    0    -1  
@@ -453,7 +454,7 @@ U 1 1 56F088F7
 P 6950 1700
 F 0 "R6" H 6980 1720 50  0000 L CNN
 F 1 "330R" H 6980 1660 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 6950 1700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 6950 1700 50  0001 C CNN
 F 3 "" H 6950 1700 50  0000 C CNN
 	1    6950 1700
 	1    0    0    -1  
@@ -486,7 +487,7 @@ U 1 1 56F089B0
 P 6250 1700
 F 0 "R5" H 6280 1720 50  0000 L CNN
 F 1 "500R" H 6280 1660 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 6250 1700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 6250 1700 50  0001 C CNN
 F 3 "" H 6250 1700 50  0000 C CNN
 	1    6250 1700
 	1    0    0    -1  
@@ -619,7 +620,7 @@ Text Notes 8000 3600 2    60   ~ 0
 Text Notes 8000 2350 2    60   ~ 0
 +5 V
 $Comp
-L POT RV1
+L POT-RESCUE-motor-interface-rev1 RV1
 U 1 1 56F10C2C
 P 1200 6750
 F 0 "RV1" H 1200 6650 50  0000 C CNN
@@ -630,7 +631,7 @@ F 3 "http://www.mouser.com/Search/ProductDetail.aspx?R=3361P-1-102GLFvirtualkey6
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV2
+L POT-RESCUE-motor-interface-rev1 RV2
 U 1 1 56F110C8
 P 1900 6750
 F 0 "RV2" H 1900 6650 50  0000 C CNN
@@ -641,7 +642,7 @@ F 3 "http://www.mouser.com/Search/ProductDetail.aspx?R=3361P-1-102GLFvirtualkey6
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV3
+L POT-RESCUE-motor-interface-rev1 RV3
 U 1 1 56F11138
 P 2600 6750
 F 0 "RV3" H 2600 6650 50  0000 C CNN
@@ -894,7 +895,7 @@ $EndComp
 Text Notes 5050 6750 0    60   ~ 0
 Voltage Sensing
 $Comp
-L POT RV6
+L POT-RESCUE-motor-interface-rev1 RV6
 U 1 1 56FC9C0F
 P 4700 7550
 F 0 "RV6" H 4700 7450 50  0000 C CNN
@@ -905,7 +906,7 @@ F 3 "" H 4700 7550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L POT RV7
+L POT-RESCUE-motor-interface-rev1 RV7
 U 1 1 56FC9CC4
 P 5050 7550
 F 0 "RV7" H 5050 7450 50  0000 C CNN
@@ -916,7 +917,7 @@ F 3 "" H 5050 7550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L POT RV4
+L POT-RESCUE-motor-interface-rev1 RV4
 U 1 1 56FC9D25
 P 4000 7550
 F 0 "RV4" H 4000 7450 50  0000 C CNN
@@ -927,7 +928,7 @@ F 3 "" H 4000 7550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L POT RV5
+L POT-RESCUE-motor-interface-rev1 RV5
 U 1 1 56FC9D8A
 P 4350 7550
 F 0 "RV5" H 4350 7450 50  0000 C CNN
