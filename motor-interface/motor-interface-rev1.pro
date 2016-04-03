@@ -1,4 +1,4 @@
-update=4/2/2016 1:42:27 PM
+update=4/2/2016 9:51:02 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -63,11 +63,10 @@ ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=C:/Users/terminator/Documents/classwork/senior design/plots/interface board/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-ERC_TestSimilarLabels=1

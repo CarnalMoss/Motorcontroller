@@ -102,7 +102,7 @@ P 3200 3400
 F 0 "R3" H 3230 3420 50  0000 L CNN
 F 1 "EN_SO1" H 3230 3360 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3200 3400 50  0001 C CNN
-F 3 "" H 3200 3400 50  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d" H 3200 3400 50  0001 C CNN
 	1    3200 3400
 	1    0    0    -1  
 $EndComp
@@ -113,7 +113,7 @@ P 3450 3300
 F 0 "R4" H 3480 3320 50  0000 L CNN
 F 1 "EN_SO2" H 3480 3260 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3450 3300 50  0001 C CNN
-F 3 "" H 3450 3300 50  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06030000Z0EA/?qs=sGAEpiMZZMu61qfTUdNhG2TmlP6XIPVRieH8x37lMMI%3d" H 3450 3300 50  0001 C CNN
 	1    3450 3300
 	1    0    0    -1  
 $EndComp
@@ -378,7 +378,7 @@ P 1250 4500
 F 0 "R1" H 1280 4520 50  0000 L CNN
 F 1 "330R" H 1280 4460 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 1250 4500 50  0001 C CNN
-F 3 "" H 1250 4500 50  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RFKEAHP/?qs=sGAEpiMZZMu61qfTUdNhGwGvesw0sPGmolIdJvA8E1c%3d" H 1250 4500 50  0001 C CNN
 	1    1250 4500
 	1    0    0    -1  
 $EndComp
@@ -389,7 +389,7 @@ P 1700 4500
 F 0 "R2" H 1730 4520 50  0000 L CNN
 F 1 "330R" H 1730 4460 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 1700 4500 50  0001 C CNN
-F 3 "" H 1700 4500 50  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RFKEAHP/?qs=sGAEpiMZZMu61qfTUdNhGwGvesw0sPGmolIdJvA8E1c%3d" H 1700 4500 50  0001 C CNN
 	1    1700 4500
 	1    0    0    -1  
 $EndComp
@@ -455,7 +455,7 @@ P 6950 1700
 F 0 "R6" H 6980 1720 50  0000 L CNN
 F 1 "330R" H 6980 1660 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 6950 1700 50  0001 C CNN
-F 3 "" H 6950 1700 50  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RFKEAHP/?qs=sGAEpiMZZMu61qfTUdNhGwGvesw0sPGmolIdJvA8E1c%3d" H 6950 1700 50  0001 C CNN
 	1    6950 1700
 	1    0    0    -1  
 $EndComp
@@ -488,7 +488,7 @@ P 6250 1700
 F 0 "R5" H 6280 1720 50  0000 L CNN
 F 1 "500R" H 6280 1660 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 6250 1700 50  0001 C CNN
-F 3 "" H 6250 1700 50  0000 C CNN
+F 3 "http://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603510RFKEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fy1ga03FwuGaCyeovw7%252blM%3d" H 6250 1700 50  0001 C CNN
 	1    6250 1700
 	1    0    0    -1  
 $EndComp
@@ -901,7 +901,7 @@ P 4700 7550
 F 0 "RV6" H 4700 7450 50  0000 C CNN
 F 1 "POT" H 4700 7550 50  0000 C CNN
 F 2 "p16261:3361P" H 4700 7550 50  0001 C CNN
-F 3 "" H 4700 7550 50  0000 C CNN
+F 3 "http://www.mouser.com/Search/ProductDetail.aspx?R=3361P-1-102GLFvirtualkey65210000virtualkey652-3361P-1-102GLF" H 4700 7550 50  0001 C CNN
 	1    4700 7550
 	0    -1   1    0   
 $EndComp
@@ -912,7 +912,7 @@ P 5050 7550
 F 0 "RV7" H 5050 7450 50  0000 C CNN
 F 1 "POT" H 5050 7550 50  0000 C CNN
 F 2 "p16261:3361P" H 5050 7550 50  0001 C CNN
-F 3 "" H 5050 7550 50  0000 C CNN
+F 3 "http://www.mouser.com/Search/ProductDetail.aspx?R=3361P-1-102GLFvirtualkey65210000virtualkey652-3361P-1-102GLF" H 5050 7550 50  0001 C CNN
 	1    5050 7550
 	0    -1   1    0   
 $EndComp
@@ -923,7 +923,7 @@ P 4000 7550
 F 0 "RV4" H 4000 7450 50  0000 C CNN
 F 1 "POT" H 4000 7550 50  0000 C CNN
 F 2 "p16261:3361P" H 4000 7550 50  0001 C CNN
-F 3 "" H 4000 7550 50  0000 C CNN
+F 3 "http://www.mouser.com/Search/ProductDetail.aspx?R=3361P-1-102GLFvirtualkey65210000virtualkey652-3361P-1-102GLF" H 4000 7550 50  0001 C CNN
 	1    4000 7550
 	0    -1   1    0   
 $EndComp
@@ -934,7 +934,7 @@ P 4350 7550
 F 0 "RV5" H 4350 7450 50  0000 C CNN
 F 1 "POT" H 4350 7550 50  0000 C CNN
 F 2 "p16261:3361P" H 4350 7550 50  0001 C CNN
-F 3 "" H 4350 7550 50  0000 C CNN
+F 3 "http://www.mouser.com/Search/ProductDetail.aspx?R=3361P-1-102GLFvirtualkey65210000virtualkey652-3361P-1-102GLF" H 4350 7550 50  0001 C CNN
 	1    4350 7550
 	0    -1   1    0   
 $EndComp
